@@ -1,5 +1,5 @@
 body 
-	background: url(https://i.imgur.com/y3XkdY1.png) no-repeat center center fixed
+	background: #210724
 	background-size: cover
 	position: fixed
 	left: 50%
