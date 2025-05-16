@@ -1,33 +1,37 @@
-body 
-	background: #210724 
-	background-size: cover
-	position: fixed
-	left: 50%
-	top: 50%
-	transform: translate(-50%,-50%)
-	text-align: center
-	font-family: "Minecraftia", "MineCrafter", "Minecraftory", "Press Start 2P", "8 Bit Wonder", monospace
+body {
+  background: #210724;
+  background-size: cover;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Minecraftia", "MineCrafter", "Minecraftory", "Press Start 2P", "8 Bit Wonder", monospace;
+}
 
-#title
-	color: #BFB5B2
-    text-shadow: -5px 0 #000, 0 5px #000, 5px 0 #000, 0 -5px #000, -5px -5px #000, 5px 5px #000, -5px 5px #000, 5px -5px #000
-	font-size: 48px
-	text-transform: uppercase
-	transform: perspective(75px) rotateX(5deg)
+#title {
+  color: #BFB5B2;
+  text-shadow: -5px 0 #000, 0 5px #000, 5px 0 #000, 0 -5px #000, -5px -5px #000, 5px 5px #000, -5px 5px #000, 5px -5px #000;
+  font-size: 80px;
+  text-transform: uppercase;
+  transform: perspective(75px) rotateX(5deg);
+}
 
-#subtitle
-	text-align: center
-	color: #FFFF00
-	text-shadow: 1px 1px 0px #000
-	position: relative
-	left: 200px
-	bottom: 50px
-	animation: subtitle .25s
-	animation-direction: alternate
-	animation-iteration-count: infinite
+#subtitle {
+  text-align: center;
+  color: #FFFF00;
+  text-shadow: 1px 1px 0px #000;
+  position: relative;
+  left: 280px;
+  bottom: 70px;
+  animation: subtitle 0.25s alternate infinite;
+}
 
-@-webkit-keyframes subtitle
-	0%
-		transform: scale(0.875) rotate(-20deg)
-	100% 
-		transform: scale(1) rotate(-20deg)
+@keyframes subtitle {
+  0% {
+    transform: scale(0.875) rotate(-20deg);
+  }
+  100% {
+    transform: scale(1) rotate(-20deg);
+  }
+}

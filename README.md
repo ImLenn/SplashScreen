@@ -2,7 +2,7 @@
 
 A Pen created on CodePen.
 
-Original URL: [https://codepen.io/Pizza-Pizza-the-selector/pen/MYYxoao](https://codepen.io/Pizza-Pizza-the-selector/pen/MYYxoao).
+Original URL: [https://codepen.io/Pizza-Pizza-the-selector/pen/EaaMXNR](https://codepen.io/Pizza-Pizza-the-selector/pen/EaaMXNR).
 
 A replication of the Minecraft splash screen. Sort of – I was too lazy to add the 3D effect to the "MINECRAFT" title.
 

@@ -10,16 +10,8 @@ body {
 }
 #title {
   color: #bfb5b2;
-}
-text-shadow: -5px 0 #000,
-0 5px #000,
-5px 0 #000,
-0 -5px #000,
--5px -5px #000,
-5px 5px #000,
--5px 5px #000,
-5px -5px #000 {
-  font-size: 48px;
+  text-shadow: -5px 0 #000, 0 5px #000, 5px 0 #000, 0 -5px #000, -5px -5px #000, 5px 5px #000, -5px 5px #000, 5px -5px #000;
+  font-size: 80px;
   text-transform: uppercase;
   transform: perspective(75px) rotateX(5deg);
 }
@@ -28,16 +20,20 @@ text-shadow: -5px 0 #000,
   color: #ff0;
   text-shadow: 1px 1px 0px #000;
   position: relative;
-  left: 200px;
-  bottom: 50px;
-  -webkit-animation: subtitle 0.25s;
-          animation: subtitle 0.25s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  left: 280px;
+  bottom: 70px;
+  -webkit-animation: subtitle 0.25s alternate infinite;
+          animation: subtitle 0.25s alternate infinite;
 }
 @-webkit-keyframes subtitle {
+  0% {
+    transform: scale(0.875) rotate(-20deg);
+  }
+  100% {
+    transform: scale(1) rotate(-20deg);
+  }
+}
+@keyframes subtitle {
   0% {
     transform: scale(0.875) rotate(-20deg);
   }
