@@ -1,5 +1,5 @@
 body 
-	background: #210724
+	background: #210724 
 	background-size: cover
 	position: fixed
 	left: 50%

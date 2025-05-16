@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2025 Sunny (https://codepen.io/rcrsch/pen/MmPxjw)
+Copyright (c) 2025 Pizza Pizza (https://codepen.io/Pizza-Pizza-the-selector/pen/MYYxoao)
+Fork of an original work Minecraft Splash Screen (https://codepen.io/rcrsch/pen/MmPxjw)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
